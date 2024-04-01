@@ -1,0 +1,38 @@
+.title-area {
+  text-align: center;
+  margin: 1em;
+}
+
+.search-area {
+  margin: 1em;
+}
+
+.item-area {
+  padding: 0.2em;
+  margin: 1em;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.info-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-area {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.form-area{
+  width: 80%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
